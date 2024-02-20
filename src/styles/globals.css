@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ 
+.active a{
+    background: black;;
+    color: white;
+}
+
+.page-item:hover a{
+    background: black;
+    color: white;
+}
+
+.page-item a{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+ 
+
+.-z-index-1{
+    z-index: -1;
+}
+
+.z-index-5{
+    z-index: 5;
+}
+
+ 
+select option {
+    margin: 40px;
+    background: rgba(255, 42, 42, 0.3);
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+select option:hover {
+    margin: 40px;
+    background: rgba(255, 42, 42, 0.3);
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
